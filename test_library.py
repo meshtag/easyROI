@@ -6,7 +6,7 @@ from pprint import pprint
 
 
 if __name__=='__main__':
-    video_path = 'input/overpass.mp4'
+    video_path = "/home/prathamesh/Videos/Webcam/1.webm"
 
     # Initialize cam
     cap = cv2.VideoCapture(video_path)

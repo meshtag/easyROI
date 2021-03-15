@@ -236,7 +236,7 @@ class EasyROI:
                 if not self.line_drawn[i]:
                     line_index = i
                     break
-
+        
             cv2.line(self.img, (self.cursor_x, self.cursor_y), (x, y), tuple(self.brush_color_finished), 2)
             
             self.roi_dict['roi'][line_index] = {
@@ -389,3 +389,6 @@ class EasyROI:
             pass
         
         return img
+
+
+# Prathamesh Tagore (Meshtag)
